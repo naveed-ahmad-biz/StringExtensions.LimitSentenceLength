@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace StringExtensions.LimitSentenceLength
+﻿namespace StringExtensions.LimitSentenceLength
 {
     public static class StringExtensions
     {
@@ -43,8 +37,6 @@ namespace StringExtensions.LimitSentenceLength
             }
             return paragraphToReturn;
         }
-
-
     }
 }
 
