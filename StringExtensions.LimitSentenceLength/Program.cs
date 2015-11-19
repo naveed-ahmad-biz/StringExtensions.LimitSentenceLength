@@ -13,12 +13,14 @@ namespace StringExtensions.LimitSentenceLength
         static void Main(string[] args)
         {
             Console.WriteLine(Paragraph.LimitSentenceLength(50));
-
+            //Lorem ipsum dolor sit amet, consectetur...
             Console.WriteLine(Paragraph.LimitSentenceLength(100));
-
+            //Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut...
             Console.WriteLine(Paragraph.LimitSentenceLength(150));
-
+            //Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,...
             Console.WriteLine(Paragraph.LimitSentenceLength(200));
+            //Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut...
         }
+   
     }
 }
